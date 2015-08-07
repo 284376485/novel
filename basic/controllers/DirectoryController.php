@@ -1,15 +1,15 @@
 <?php
 
-namespace app\controllers;
+namespace app\Controllers;
 use yii;
-use yii\web\controller;
+use yii\web\Controller;
 use app\models\bookinfo;
 use app\models\article;
 use app\models\TransPinyin;
 use app\models\IndexModel;
 
 //小说目录
-class DirectoryController extends controller
+class DirectoryController extends Controller
 {
 	public function actionIndex(){
 		$IndexModel = new IndexModel();

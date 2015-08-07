@@ -1,16 +1,16 @@
 <?php
 
-namespace app\controllers;
+namespace app\Controllers;
 
 use yii\db\ActiveRecord;
-use yii\web\controller;
+use yii\web\Controller;
 use app\models\message;
 use app\models\bookinfo;
 use app\models\article;
 use app\models\TransPinyin;
 use app\models\IndexModel;
 
-class IndexController extends controller{
+class IndexController extends Controller{
 	public function actionIndex(){
 			$bookinfo = new bookinfo;
 			$article  = new article;

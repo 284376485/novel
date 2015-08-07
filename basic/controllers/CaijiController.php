@@ -1,5 +1,5 @@
 <?php
-namespace app\controllers;
+namespace app\Controllers;
 use yii;
 use yii\web\Controller;
 use phpQuery;
@@ -9,7 +9,7 @@ use app\models\article;
 include 'phpQuery.php'; 
 
 
-class CaijiController extends controller
+class CaijiController extends Controller
 {
 	//访问首页获取源码
 	public function actionIndex(){

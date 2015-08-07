@@ -1,12 +1,12 @@
 <?php
-namespace app\controllers;
+namespace app\Controllers;
 use yii\web\Controller;
 use phpQuery;
 include 'phpQuery.php'; 
 
 
 //采集值得买的全部发现列表
-class CollectionController extends controller
+class CollectionController extends Controller
 {
 
 
